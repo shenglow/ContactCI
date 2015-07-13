@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.4
+-- version 4.1.14
 -- http://www.phpmyadmin.net
 --
--- 主機: localhost
--- 產生日期: 2015 年 03 月 25 日 11:46
--- 伺服器版本: 5.6.12-log
--- PHP 版本: 5.4.12
+-- 主機: 127.0.0.1
+-- 產生時間： 2015 �?07 ??14 ??01:20
+-- 伺服器版本: 5.6.17
+-- PHP 版本： 5.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,15 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- 資料庫: `database`
+-- 資料庫： `database`
 --
-CREATE DATABASE IF NOT EXISTS `database` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `database`;
 
 -- --------------------------------------------------------
 
 --
--- 表的結構 `100a`
+-- 資料表結構 `100a`
 --
 
 CREATE TABLE IF NOT EXISTS `100a` (
@@ -38,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `100a` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_520_ci;
 
 --
--- 轉存資料表中的資料 `100a`
+-- 資料表的匯出資料 `100a`
 --
 
 INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
@@ -49,7 +47,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A0028308', '吳敏暄 ', '吳敏暄', 'scorpio19921029@yahoo.com.tw', 'O'),
 ('A0028309', '邱均緯 ', '邱均緯 ', 'asd15935743@yahoo.com.tw', 'O'),
 ('A0028311', '陳冠廷', '陳冠廷', 'heiyun2257@gmail.com', 'O'),
-('A0028314', '陳家聖 ', '陳家聖 ', 'e563212001@yahoo.com.tw', 'O'),
+('A0028314', '陳家聖 ', 'Jia Sheng Chen', 'e563212001@yahoo.com.tw', 'O'),
 ('A0028316', '章家玟 ', '章家玟', 's2026574@yahoo.com.tw', 'O'),
 ('A0028318', '陳建昆 ', '陳建昆', 'jor940005@yahoo.com.tw', 'O'),
 ('A0028319', '紀硯文 ', '紀硯文', 'vivina82412@yahoo.com.tw', 'O'),
@@ -57,7 +55,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A0028321', '鄒宜璁', '鄒宜璁', 'abc092121@yahoo.com.tw', 'O'),
 ('A0028322', '鄭雅芸 ', '鄭雅芸', 'erin102581@yahoo.com.tw', 'O'),
 ('A0028324', '洪健忠 ', '洪健忠', 'aaa7946132tw@yahoo.com.tw', 'O'),
-('A0028326', '張瑋伶 ', '張瑋伶', 'ciaoyun19930123@yahoo.com.tw', 'O'),
+('A0028326', '張瑋伶 ', '趙雲', 'ciaoyun19930123@yahoo.com.tw', 'O'),
 ('A0028327', '謝孟庭 ', '謝孟庭', 'he00456188@gmail.com', 'O'),
 ('A0028329', '魏慶凡 ', '魏慶凡', 'davidx40101@yahoo.com.tw', 'O'),
 ('A0028331', '吳偉豪 ', '吳偉豪', 'freeericaa@yahoo.com.tw', 'O'),
@@ -124,7 +122,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A0028415', '陳弘毅 ', '陳弘毅 ', 'clps5616@yahoo.com.tw', 'O'),
 ('A0028419', '黃婺琦 ', '黃婺琦 ', 'moopeno58772@yahoo.com.tw', 'O'),
 ('A0028421', '薛安佑 ', '薛安佑 ', 'k20046401@yahoo.com.tw', 'O'),
-('A0028426 ', '吳邦銓', '吳邦銓', 'wles5566123420@yahoo.com.tw', 'O'),
+('A0028426 ', '吳邦銓', '', 'wles5566123420@yahoo.com.tw', ''),
 ('A0028429', '宋秉浩', '(找不到)', 'h19920705@yahoo.com.tw', 'X'),
 ('A0028430', '蕭士穎', 'Shih Ying Hsiao', 'swim800928@yahoo.com.tw', 'O'),
 ('A0028431', '曾嘉廷', '曾嘉廷', 'emcc166@hotmail.com', 'O'),
@@ -257,7 +255,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A9228328', '黃智鴻', '', '', ''),
 ('A9228329', '陳尚恩', '', '', ''),
 ('A9228330', '黃升煌', '', '', ''),
-('A9228331', '侯?宇', '侯?宇', '', 'O'),
+('A9228331', '侯畊宇', '侯畊宇', '', 'O'),
 ('A9228332', '林澤民', '', '', ''),
 ('A9228334', '許哲銘', '', '', ''),
 ('A9228335', '張文藍', '', '', ''),
@@ -804,7 +802,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A9728385', '張家豪', 'Clazen Chang', '', 'O'),
 ('A9728386', '張瑋浚', '張瑋浚', '', 'O'),
 ('A9728388', '蕭?靜', 'Shiou Jing Shiau', '', 'O'),
-('A9728389', '甘?紋', '甘?紋', '', 'O'),
+('A9728389', '甘綉紋', '', '', ''),
 ('A9728390', '杜姿蓉', 'Erica Do', '', 'O'),
 ('A9728392', '劉錦憓', '劉錦憓', '', 'O'),
 ('A9728393', '林昱全', '', '', ''),
@@ -812,7 +810,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 ('A9728398', '謝佩吟', '謝佩吟', '', 'O'),
 ('A9728399', '朱宏來', '', '', ''),
 ('A9728400', '郝芷涵', 'Zhi Han Hou', '', 'O'),
-('A9728401', '羅紹嘉', '羅嘎嘎', '', 'O'),
+('A9728401', '羅紹嘉', '羅紹嘉', '', 'O'),
 ('A9728402', '葉香蘭', '葉香', '', 'O'),
 ('A9728403', '林美妤', 'Mei Yu Lin', '', 'O'),
 ('A9728406', '林佩樺', '林子子', '', 'O'),
@@ -1338,7 +1336,7 @@ INSERT INTO `100a` (`stuid`, `name`, `fbname`, `email`, `already`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的結構 `comparison`
+-- 資料表結構 `comparison`
 --
 
 CREATE TABLE IF NOT EXISTS `comparison` (
@@ -1348,7 +1346,7 @@ CREATE TABLE IF NOT EXISTS `comparison` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `comparison`
+-- 資料表的匯出資料 `comparison`
 --
 
 INSERT INTO `comparison` (`stu_no`, `name`, `fb_name`) VALUES
@@ -1413,7 +1411,7 @@ INSERT INTO `comparison` (`stu_no`, `name`, `fb_name`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的結構 `location`
+-- 資料表結構 `location`
 --
 
 CREATE TABLE IF NOT EXISTS `location` (
@@ -1423,7 +1421,7 @@ CREATE TABLE IF NOT EXISTS `location` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `location`
+-- 資料表的匯出資料 `location`
 --
 
 INSERT INTO `location` (`uid`, `current_location`, `hometown_location`) VALUES
@@ -1967,7 +1965,7 @@ INSERT INTO `location` (`uid`, `current_location`, `hometown_location`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的結構 `name_uid`
+-- 資料表結構 `name_uid`
 --
 
 CREATE TABLE IF NOT EXISTS `name_uid` (
@@ -1977,7 +1975,7 @@ CREATE TABLE IF NOT EXISTS `name_uid` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `name_uid`
+-- 資料表的匯出資料 `name_uid`
 --
 
 INSERT INTO `name_uid` (`fbname`, `uid`, `photo`) VALUES
@@ -2593,7 +2591,7 @@ INSERT INTO `name_uid` (`fbname`, `uid`, `photo`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的結構 `notfb`
+-- 資料表結構 `notfb`
 --
 
 CREATE TABLE IF NOT EXISTS `notfb` (
@@ -2605,7 +2603,7 @@ CREATE TABLE IF NOT EXISTS `notfb` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `notfb`
+-- 資料表的匯出資料 `notfb`
 --
 
 INSERT INTO `notfb` (`stu_no`, `name`, `teacher`, `project`, `email`) VALUES
@@ -3905,7 +3903,7 @@ INSERT INTO `notfb` (`stu_no`, `name`, `teacher`, `project`, `email`) VALUES
 -- --------------------------------------------------------
 
 --
--- 表的結構 `project`
+-- 資料表結構 `project`
 --
 
 CREATE TABLE IF NOT EXISTS `project` (
@@ -3920,7 +3918,7 @@ CREATE TABLE IF NOT EXISTS `project` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `project`
+-- 資料表的匯出資料 `project`
 --
 
 INSERT INTO `project` (`no`, `project`, `teacher`, `species`, `content`, `leader`, `stu_no`, `date`) VALUES
@@ -4114,7 +4112,7 @@ INSERT INTO `project` (`no`, `project`, `teacher`, `species`, `content`, `leader
 -- --------------------------------------------------------
 
 --
--- 表的結構 `studata`
+-- 資料表結構 `studata`
 --
 
 CREATE TABLE IF NOT EXISTS `studata` (
@@ -4135,7 +4133,7 @@ CREATE TABLE IF NOT EXISTS `studata` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='學生資料';
 
 --
--- 轉存資料表中的資料 `studata`
+-- 資料表的匯出資料 `studata`
 --
 
 INSERT INTO `studata` (`stu_ID`, `stu_name`, `teacher`, `year`, `UID`, `fb_name`, `birth`, `city`, `phone`, `email`, `work`, `worked`) VALUES
@@ -4222,7 +4220,7 @@ INSERT INTO `studata` (`stu_ID`, `stu_name`, `teacher`, `year`, `UID`, `fb_name`
 -- --------------------------------------------------------
 
 --
--- 表的結構 `uid`
+-- 資料表結構 `uid`
 --
 
 CREATE TABLE IF NOT EXISTS `uid` (
@@ -4232,7 +4230,7 @@ CREATE TABLE IF NOT EXISTS `uid` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `uid`
+-- 資料表的匯出資料 `uid`
 --
 
 INSERT INTO `uid` (`stu_no`, `fb_name`, `UID`) VALUES
@@ -4545,12 +4543,36 @@ INSERT INTO `uid` (`stu_no`, `fb_name`, `UID`) VALUES
 ('A9828337', '黃雅', '100000618877601'),
 ('A9728322', '黃點點', '100000115740860'),
 ('A0028382', '林信嘉', '100005391635241'),
-('A9828316', '蔡宥安', '100001869530368');
+('A9828316', '蔡宥安', '100001869530368'),
+('A9228331', '侯畊宇', '1795336555'),
+('A9328333', '吳晟瑋', '100000714426783'),
+('A9328325', '林峻宇', '10205827962191777'),
+('A9328321', '洪明偉', '10205463290087161'),
+('A9328345', '洪維廷', '1128644593818472'),
+('A9328341', '蔡尚玉', '889118547772600'),
+('A9328310', '邱文成', '1003029958'),
+('A9428306', '張鈞瑞', '10152282755867278'),
+('A9428323', '葉茹惠', '994708977206480'),
+('A9428404', '蔡孟勳', '10203929071855692'),
+('A9528406', '陳瑜奇', '10203521839637647'),
+('A9528339', '陳胖', '3838846737709'),
+('A9728386', '張瑋浚', '1015122671834420'),
+('A9728384', '索晨華', '834486196565234'),
+('A9728401', '羅紹嘉', '498550483617999'),
+('A9728402', '葉香', '1138997219449757'),
+('A9728398', '謝佩吟', '100000268445613'),
+('A9728306', '郭彥志', '615618858485845'),
+('A0028326', '趙雲', '1302157246566533'),
+('A0028361', '李俊瑋', '1009383089079447'),
+('A0028314', 'Jia Sheng Chen', '100002771834352'),
+('A0028415', '陳弘毅', '100002204728675'),
+('A0028336', '高台霖', '1086520674697338'),
+('A0028414', '黃楚瑜', '100000234759790');
 
 -- --------------------------------------------------------
 
 --
--- 表的結構 `work`
+-- 資料表結構 `work`
 --
 
 CREATE TABLE IF NOT EXISTS `work` (
@@ -4562,7 +4584,7 @@ CREATE TABLE IF NOT EXISTS `work` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- 轉存資料表中的資料 `work`
+-- 資料表的匯出資料 `work`
 --
 
 INSERT INTO `work` (`uid`, `employer`, `position`, `start_date`, `end_date`) VALUES
